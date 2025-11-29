@@ -6,6 +6,7 @@ export const universities = [
     language: "Inglês/Alemão",
     area: "Engenharia",
     deadline: "15/03/2025",
+    image: "/assets/TUM.jpg", // ← Logo adicionada
     description: "A TUM é uma das universidades mais prestigiadas da Europa, oferecendo programas de excelência em engenharia e tecnologia. O intercâmbio permite acesso a laboratórios de ponta e networking internacional.",
     requirements: [
       "Histórico escolar com CR mínimo 7.0",
@@ -18,26 +19,7 @@ export const universities = [
     duration: "6 meses a 1 ano",
     spots: 4
   },
-  {
-    id: 2,
-    name: "University of California, Berkeley",
-    country: "Estados Unidos",
-    language: "Inglês",
-    area: "Computação",
-    deadline: "20/02/2025",
-    description: "UC Berkeley é reconhecida mundialmente pela excelência em ciência da computação e inovação tecnológica. Localizada no coração do Vale do Silício, oferece oportunidades únicas de networking.",
-    requirements: [
-      "Histórico escolar com CR mínimo 7.5",
-      "TOEFL 90+ ou IELTS 7.0+",
-      "Carta de motivação detalhada",
-      "Três cartas de recomendação",
-      "Portfólio de projetos (para Computação)",
-      "Comprovante financeiro",
-      "Visto F-1"
-    ],
-    duration: "1 semestre",
-    spots: 2
-  },
+ 
   {
     id: 3,
     name: "Polytechnic University of Madrid",
@@ -45,6 +27,7 @@ export const universities = [
     language: "Espanhol/Inglês",
     area: "Telecomunicações",
     deadline: "30/03/2025",
+    image: "/assets/MADRI.png", // ← Logo adicionada
     description: "A UPM é referência em telecomunicações e engenharia na Europa. Oferece ambiente multicultural e programas integrados com o mercado europeu de tecnologia.",
     requirements: [
       "Histórico escolar com CR mínimo 6.5",
@@ -64,6 +47,7 @@ export const universities = [
     language: "Inglês/Coreano",
     area: "Engenharia",
     deadline: "10/04/2025",
+    image: "/assets/KAIST_logo.png", // ← Logo adicionada
     description: "KAIST é líder em pesquisa e desenvolvimento tecnológico na Ásia. Oferece infraestrutura moderna e colaboração com empresas como Samsung e LG.",
     requirements: [
       "Histórico escolar com CR mínimo 7.0",
@@ -76,25 +60,7 @@ export const universities = [
     duration: "1 semestre",
     spots: 3
   },
-  {
-    id: 5,
-    name: "Swiss Federal Institute of Technology",
-    country: "Suíça",
-    language: "Inglês/Alemão",
-    area: "Engenharia Elétrica",
-    deadline: "28/02/2025",
-    description: "ETH Zurich é consistentemente classificada entre as melhores universidades do mundo. Oferece programas rigorosos e ambiente de pesquisa de classe mundial.",
-    requirements: [
-      "Histórico escolar com CR mínimo 8.0",
-      "TOEFL 100+ ou IELTS 7.0+",
-      "Carta de motivação acadêmica",
-      "Três cartas de recomendação",
-      "Portfólio acadêmico",
-      "Comprovante financeiro (custo alto)"
-    ],
-    duration: "1 ano",
-    spots: 2
-  },
+  
   {
     id: 6,
     name: "University of Toronto",
@@ -102,6 +68,7 @@ export const universities = [
     language: "Inglês",
     area: "Computação",
     deadline: "05/03/2025",
+    image: "/assets/toronto.png", // ← Logo adicionada
     description: "U of T é a maior e mais diversa universidade canadense, com forte presença em AI e machine learning. Toronto oferece ambiente multicultural vibrante.",
     requirements: [
       "Histórico escolar com CR mínimo 7.0",
@@ -121,6 +88,7 @@ export const universities = [
     language: "Inglês",
     area: "Engenharia",
     deadline: "15/04/2025",
+    image: "/assets/NUS.png", // ← Logo adicionada
     description: "NUS é a universidade líder da Ásia, oferecendo programas inovadores e conexões com o ecossistema de startups de Singapura.",
     requirements: [
       "Histórico escolar com CR mínimo 7.5",
@@ -140,6 +108,7 @@ export const universities = [
     language: "Inglês",
     area: "Telecomunicações",
     deadline: "25/03/2025",
+    image: "/assets/MELBOURNE.jpg", // ← Logo adicionada
     description: "A University of Melbourne combina excelência acadêmica com qualidade de vida excepcional. Forte em pesquisa aplicada e parcerias industriais.",
     requirements: [
       "Histórico escolar com CR mínimo 7.0",
